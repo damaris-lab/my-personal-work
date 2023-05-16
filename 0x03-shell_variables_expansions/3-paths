@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH |tr .:.ln.
+echo $(('echo $PATH | grep-0 ":" | wc _1'+1))
